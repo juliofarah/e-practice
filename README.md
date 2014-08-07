@@ -1,5 +1,8 @@
 [![Build Status](https://snap-ci.com/aceleradora/e-practice/branch/master/build_image)](https://snap-ci.com/aceleradora/e-practice/branch/master)
 
+Fork para estudar e preparar sessions para a aceleradora
+
+
 e-pr@ctice
 ==========
 
