@@ -17,11 +17,7 @@ public class ValidadorDeAtribuicao implements Validador {
 	}
 
 	public boolean validaVariavel() {
-		boolean retorno = false;
-		if (tabelaDeSimbolos.simboloExiste(tokens.get(0))) {
-			retorno = true;
-		}
-		return retorno;
+		return (tabelaDeSimbolos.simboloExiste(tokens.get(0)));
 	}
 
 	public boolean ehAtribuicaoDeInteirosValida() {
