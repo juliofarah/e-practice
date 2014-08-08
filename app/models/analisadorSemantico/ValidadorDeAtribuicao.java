@@ -6,9 +6,10 @@ import models.analisadorLexico.IdentificadorDeToken;
 import java.util.ArrayList;
 
 public class ValidadorDeAtribuicao implements Validador {
-	IdentificadorDeToken identificadorDeToken;
-	TabelaDeSimbolos tabelaDeSimbolos;
-	ArrayList<String> tokens;
+
+	private IdentificadorDeToken identificadorDeToken;
+	private TabelaDeSimbolos tabelaDeSimbolos;
+	private ArrayList<String> tokens;
 
 	public ValidadorDeAtribuicao(TabelaDeSimbolos tabelaDeSimbolos) {
 		this.tabelaDeSimbolos = tabelaDeSimbolos;
