@@ -27,6 +27,10 @@ public class IdentificadorDeToken {
         return "INVALIDO";
     }
 
+	public HashMap<String, String> getMapaDeTokens() {
+		return mapaDeTokens;
+	}
+	
     public boolean verificaSeTodasOsCaracteresSaoNumeros(String token){
         for (int i = 1; i < token.length(); i++) {
             if(!Character.isDigit(token.charAt(i))){
