@@ -3,8 +3,8 @@ NOME=$USER
 echo 'Instalação e configuração do banco de dados local'
 echo '-------------------------------------------------'
 # Baixa e instala postgreSQL
-sudo apt-get update
-sudo apt-get install postgresql
+#sudo apt-get update
+#sudo apt-get install postgresql
 # Cria um arquivo com comandos para user postgres
 touch postgres_commands
 echo 'createuser '$NOME > postgres_commands
