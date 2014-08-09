@@ -21,10 +21,7 @@ public class IdentificadorDeToken {
         if (tokenComecaComLetra(token)) 
             return "IDV";
         
-        if (tokenComecaComNumero(token))
-            return verificaNumeros(token);
-        
-        return "INVALIDO";
+        return verificaNumeros(token);
     }
 
 	public HashMap<String, String> getMapaDeTokens() {

@@ -16,7 +16,7 @@ public class TesteIdentificadorDeToken {
     public void setUp() throws Exception {
         identificadorDeToken = new IdentificadorDeToken();
     }
-
+    
     @Test
     public void palavraVarDeveRetornarTipoDeTokenDeclaracaoDeVar() throws Exception {
         tokenID = identificadorDeToken.identifica("var");
